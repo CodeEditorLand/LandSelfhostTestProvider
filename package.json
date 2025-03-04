@@ -46,7 +46,7 @@
 		"split2": "4.2.0"
 	},
 	"devDependencies": {
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"@types/split2": "4.2.3",
 		"ts-loader": "9.5.2"
 	},
