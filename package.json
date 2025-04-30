@@ -1,29 +1,7 @@
 {
 	"name": "@codeeditorland/selfhost-test-provider",
 	"displayName": "VS Code Selfhost Test Provider",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Test provider for the VS Code project",
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSelfhostTestProvider#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandSelfhostTestProvider/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandSelfhostTestProvider.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
-		"email": "Source/Open@Editor.Land",
-		"url": "HTTPS://Editor.Land"
-	},
-	"type": "module",
 	"main": "./dist/extension.js",
 	"scripts": {
 		"compile": "webpack --config ./build/node-extension.webpack.config.js",
@@ -73,9 +51,6 @@
 		"@types/node": "22.15.2",
 		"@types/split2": "4.2.3",
 		"ts-loader": "9.5.2"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"icon": "icon.png",
 	"enabledApiProposals": [
