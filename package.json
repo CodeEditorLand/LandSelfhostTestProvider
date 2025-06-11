@@ -78,10 +78,10 @@
     "postinstall": "vscode-dts main && vscode-dts dev"
   },
   "devDependencies": {
-    "@types/node": "^22.15.30",
+    "@types/node": "^24.0.0",
     "@types/split2": "^4.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.33.1",
-    "@typescript-eslint/parser": "^8.33.1",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
     "eslint": "^9.28.0",
     "eslint-plugin-header": "^3.1.1",
     "prettier": "^3.5.3",
